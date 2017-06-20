@@ -4,8 +4,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/mantl/mesos-consul/registry"
-	"github.com/mantl/mesos-consul/state"
+	"github.com/evilezh/mesos-consul/registry"
+	"github.com/evilezh/mesos-consul/state"
 )
 
 type CheckVar struct {

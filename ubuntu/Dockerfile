@@ -1,12 +1,10 @@
-FROM ubuntu:15.04
-
-MAINTAINER Chris Aubuchon <Chris.Aubuchon@gmail.com>
+FROM ubuntu:16.04.2
 
 RUN apt-get update -y \
 	&& apt-get install -y golang git mercurial \
 	&& export GOPATH=/go \
-	&& go get github.com/CiscoCloud/mesos-consul \
-	&& cd /go/src/github.com/CiscoCloud/mesos-consul \
+	&& go get github.com/evilezh/mesos-consul \
+	&& cd /go/src/github.com/evilezh/mesos-consul \
 	&& go build -o /bin/mesos-consul \
 	&& cd / \
 	&& rm -rf /go \
