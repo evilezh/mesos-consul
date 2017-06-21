@@ -13,7 +13,7 @@ import (
 	"github.com/evilezh/mesos-consul/registry"
 	"github.com/evilezh/mesos-consul/state"
 
-	proto "github.com/mesos/mesos-go/api/v0/mesosproto"
+	proto "github.com/mesos/mesos-go/mesosproto"
 	log "github.com/sirupsen/logrus"
 )
 

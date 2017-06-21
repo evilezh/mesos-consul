@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/mantl/mesos-consul/config"
-	"github.com/mantl/mesos-consul/consul"
-	"github.com/mantl/mesos-consul/mesos"
+	"github.com/evilezh/mesos-consul/config"
+	"github.com/evilezh/mesos-consul/consul"
+	"github.com/evilezh/mesos-consul/mesos"
 
 	flag "github.com/ogier/pflag"
 	log "github.com/sirupsen/logrus"

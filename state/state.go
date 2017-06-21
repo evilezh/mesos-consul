@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/mesos/mesos-go/api/v0/upid"
+	"github.com/mesos/mesos-go/upid"
 )
 
 // Resources holds resources as defined in the /state.json Mesos HTTP endpoint.
